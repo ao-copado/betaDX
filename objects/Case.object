@@ -314,6 +314,42 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Severity__c</fullName>
+        <externalId>false</externalId>
+        <label>Severity</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Low</fullName>
+                    <default>false</default>
+                    <label>Low</label>
+                </value>
+                <value>
+                    <fullName>Middle</fullName>
+                    <default>false</default>
+                    <label>Middle</label>
+                </value>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+                <value>
+                    <fullName>Critical</fullName>
+                    <default>false</default>
+                    <label>Critical</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>SlaExitDate</fullName>
         <trackTrending>false</trackTrending>
     </fields>
